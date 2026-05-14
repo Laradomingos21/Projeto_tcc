@@ -1,5 +1,5 @@
 <?php
-$servidor = "10.140.169.87";
+$servidor = "10.140.170.33";
 $Email = "root";
 $Senha = "1234";
 $banco = "rfid_ferramentas";

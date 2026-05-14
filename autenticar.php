@@ -15,7 +15,7 @@ if ($result->num_rows > 0) {
     $_SESSION['msg'] = "Login realizado com sucesso!";
     $_SESSION['status'] = "ok";
 
-    header("Location: index_sistema.php");
+    header("Location: sistema/index_sistema.php");
 } else {
     $_SESSION['msg'] = "Usuário ou senha incorretos!";
     $_SESSION['status'] = "erro";

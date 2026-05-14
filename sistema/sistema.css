@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: rgb(38, 36, 36);
+  height: 129vh;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.sidebar li:hover,
+.sidebar .active {
+  background: #3f3c3c;
+}
+
+/* Conteúdo */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  background: rgb(38, 36, 36);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.card.blue {
+  border: 1px solid #3b82f6;
+}
+
+.card.green {
+  border: 1px solid #10b981;
+}
+
+.card.yellow {
+  border: 1px solid #f59e0b;
+}
+
+.card.red {
+  border: 1px solid #ef4444;
+}
+
+.box {
+  background: rgb(38, 36, 36);
+  padding: 20px;
+  border-radius: 12px;
+  height: 180px;
+  padding: 15px;
+  color: white;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;   
+}
+
+
+/*Painéis - Distribuição de Status*/
+
+.titulo{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nome{
+    width: 120px;
+    font-size: 15px;
+}
+
+.barra{
+    flex: 1;
+    height: 6px;
+    background: #1f2937;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 15px;
+}
+
+.progresso{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.valor{
+    width: 15px;
+    text-align: right;
+}
+
+/* CORES */
+
+.azul{
+    color: #3b82f6;
+}
+
+.verde{
+    color: #10b981;
+}
+
+.amarelo{
+    color: #f59e0b;
+}
+
+.vermelho{
+    color: #ef4444;
+}
+
+/* BARRAS */
+
+.azul-barra{
+    background: #3b82f6;
+    width: 70%;
+}
+
+.verde-barra{
+    background: #10b981;
+    width: 50%;
+}
+
+.amarelo-barra{
+    background: #f59e0b;
+    width: 30%;
+}
+
+.vermelho-barra{
+    background: #ef4444;
+    width: 15%;
+}
+
+#nome-sistema:hover {
+  cursor: pointer;
+}
+
