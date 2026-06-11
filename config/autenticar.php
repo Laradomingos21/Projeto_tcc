@@ -1,6 +1,6 @@
 <?php
 session_start(); //para saber que voce esta logado quando entra no site
-include "conexao.php";
+include "../config/conexao.php";
 
 $Email = $_POST['Email']; //guarda o nome de usuario em uma variavel
 $Senha = $_POST['Senha']; // colocar o md5 quando a tela de cadastro tiver criada e mandando no banco de dados

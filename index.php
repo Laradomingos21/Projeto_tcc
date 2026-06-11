@@ -1,6 +1,5 @@
 <?php
 // index.php (raiz do projeto)
-
 session_start();
 
 require_once 'config/conexao.php';
